@@ -1,0 +1,91 @@
+
+.flex-container {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: linear-gradient(rgba(96, 79, 252, 0.082), white);
+}
+
+
+
+.board {
+    border: black 5px solid;
+    width: 80%;
+    height: 80%;
+    display: grid;
+    background-color: white;
+    box-shadow: inset -1px -4px 8px 9px rgba(66, 68, 90, 1);;
+}
+.board:hover{
+    cursor: pointer;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-width: 300px;
+    min-height: 300px;
+    width: 60vw;
+    height: 60vh;
+    max-width: 600px;
+    max-height: 600px;
+}
+
+.title {
+    display: flex;
+    justify-content: center;
+}
+
+.buttons {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+button {
+    padding: 0.3em 1.2em;
+    margin: 0 0.3em 0.3em 0;
+    border-radius: 2em;
+    text-decoration: none;
+    font-weight: 600;
+    text-align: center;
+    transition: all 0.2s;
+}
+
+
+button:hover {
+    cursor: pointer;
+}
+
+.blackButton {
+    color:white;
+    background-color: black;
+}
+.blackButton:hover{
+    color:black;
+    background-color: white;
+}
+
+.grayButton {
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+}
+
+
+.grayButton:hover{
+    background-color: white;
+    color:  rgba(0, 0, 0, 0.5);
+}
+
+.randomButton {
+    color: white;
+    background: linear-gradient(rgba(253, 113, 185, 100), blue);
+}
+
+
+input {
+    width: 50px;
+    text-align: center;
+}
